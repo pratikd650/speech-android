@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ms Sunshine</string>
+    <string name="action_record">Record</string>
+    <string name="action_logout">Logout</string>
+</resources>
