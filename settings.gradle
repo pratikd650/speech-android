@@ -1,0 +1,2 @@
+include ':miss-sunshine'
+rootProject.name = "Speech"

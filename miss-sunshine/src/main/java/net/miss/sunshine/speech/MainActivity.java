@@ -250,6 +250,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void run() {
                 if (added) {
                     viewAdapter.notifyItemInserted(pos);
+                    recyclerView.scrollToPosition(pos);
                 } else {
                     viewAdapter.notifyItemChanged(pos);
                 }
